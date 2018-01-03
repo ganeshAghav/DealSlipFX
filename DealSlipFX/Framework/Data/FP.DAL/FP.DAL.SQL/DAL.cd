@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="GSP.Common.DAL.DBUtility">
+    <Position X="0.5" Y="0.5" Width="7" />
+    <TypeIdentifier>
+      <FileName>DBUtility.cs</FileName>
+      <HashCode>AAGAAAQAIgAAACQAAAAAgCAAAADAAAABAAAABBAAAgA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="GSP.Common.DAL.UtilParams">
+    <Position X="0.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>DBUtility.cs</FileName>
+      <HashCode>AAAAAEgAEBAIAAAAACIAAIAEAAAAAIAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Enum Name="GSP.Common.DAL.DBUtilDBType">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DBUtility.cs</FileName>
+      <HashCode>AAAAAAAAAQAgAAAABAAAAAACBAAABiQBAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GSP.Common.DAL.DBUtilDirection">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DBUtility.cs</FileName>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

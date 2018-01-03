@@ -1,0 +1,15 @@
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\bin\Debug\FP.BL.DealSlipFX.dll
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\bin\Debug\FP.BL.DealSlipFX.pdb
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\bin\Debug\FP.Common.Configuration.dll
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\bin\Debug\FP.DAL.SQL.dll
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\bin\Debug\GSP.Common.EncryptionDecryption.dll
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\bin\Debug\GSP.Common.ExceptionLogging.dll
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\bin\Debug\FP.Common.dll
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\bin\Debug\FP.Common.Configuration.pdb
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\bin\Debug\GSP.Common.EncryptionDecryption.pdb
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\bin\Debug\GSP.Common.ExceptionLogging.pdb
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\bin\Debug\FP.DAL.SQL.pdb
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\bin\Debug\FP.Common.pdb
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\obj\Debug\FP.BL.DealSlipFX.csprojResolveAssemblyReference.cache
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\obj\Debug\FP.BL.DealSlipFX.dll
+F:\Projects\DealSlipFX\DealSlipFX\FP.BL.DealSlipFX\obj\Debug\FP.BL.DealSlipFX.pdb

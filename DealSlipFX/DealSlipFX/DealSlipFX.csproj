@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{586720C9-E737-4CEA-972B-EA1C7024DC29}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DealSlipFX</RootNamespace>
+    <AssemblyName>DealSlipFX</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DealSlipFXForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DealSlipFXForm.Designer.cs">
+      <DependentUpon>DealSlipFXForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DealSlipFXForm.resx">
+      <DependentUpon>DealSlipFXForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Delete.png" />
+    <Content Include="Images\Logo.png" />
+    <Content Include="Images\True.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FP.BL.DealSlipFX\FP.BL.DealSlipFX.csproj">
+      <Project>{AA71A708-3935-4414-A720-E43D34ED7EE1}</Project>
+      <Name>FP.BL.DealSlipFX %28FP.BL.DealSlipFX\FP.BL.DealSlipFX%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework\CrossCutting\FP.Common.Configuration\FP.Common.Configuration.csproj">
+      <Project>{457A3812-B197-46BE-BB2E-6B155FADE23F}</Project>
+      <Name>FP.Common.Configuration %28Framework\CrossCutting\FP.Common.Configuration\FP.Common.Configuration%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework\CrossCutting\FP.Common.EncryptionDecryption\FP.Common.EncryptionDecryption.csproj">
+      <Project>{C43B744E-A4AB-4792-9B26-90FB761DD1BC}</Project>
+      <Name>FP.Common.EncryptionDecryption %28Framework\CrossCutting\FP.Common.EncryptionDecryption\FP.Common.EncryptionDecryption%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework\CrossCutting\FP.Common.ExceptionLogging\FP.Common.ExceptionLogging.csproj">
+      <Project>{8F316F3E-49A6-45D2-9B73-ACFBD9C45FF8}</Project>
+      <Name>FP.Common.ExceptionLogging %28Framework\CrossCutting\FP.Common.ExceptionLogging\FP.Common.ExceptionLogging%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Framework\Data\FP.DAL\FP.DAL.SQL\FP.DAL.SQL.csproj">
+      <Project>{BCB0C61A-C70D-43E8-8221-15826A2243D7}</Project>
+      <Name>FP.DAL.SQL %28Framework\Data\FP.DAL\FP.DAL.SQL\FP.DAL.SQL%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
